@@ -1,0 +1,5 @@
+{
+  "frontendHostUrl": "http://172.20.182.46:3001",
+  "BackendHostUrl": "http://172.20.182.49",
+  "namespace": ""
+}
