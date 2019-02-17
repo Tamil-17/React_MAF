@@ -1,0 +1,52 @@
+@import "../../common/_colors";
+
+@mixin rounded-icon-button($width: 1em, $color: $link-blue) {
+  background-color: $color;
+  border-radius: $width;
+  border: none;
+  color: $white;
+  font-size: $width * 4;
+  width: $width;
+  height: $width;
+  text-align: center;
+  line-height: $width;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  position: relative;
+
+  &:not(:disabled) {
+    &:hover, &:focus {
+      box-shadow: 0 0 0 ($width / 11) transparentize(lighten($color, 25%), 0.6);
+    }
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $width;
+    height: $width;
+
+    &:before {
+      font-size: 0.55em;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+.ui-component__rounded-icon-button {
+  @include rounded-icon-button();
+}
+
+@media screen and (min-width:504px) {
+  .ui-component__rounded-icon-button {
+    display: none;
+  }
+}

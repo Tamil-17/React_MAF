@@ -1,0 +1,28 @@
+.bubbles {
+    stroke-width: 2px;
+    stroke: gray;
+}
+.bubbles:hover {
+    stroke: black;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.1;
+}
+.grid path {
+    stroke-width: 0;
+}
+
+
+.quadrant-label {
+    fill: black;
+    font-size: .85rem;
+    opacity: 0.5;
+}
+
+.AverageValues {
+    fill: black;
+    font-size: .85rem;
+    opacity: 0.5;
+}
