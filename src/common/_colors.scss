@@ -1,0 +1,142 @@
+/////////////////////////////////
+//Color variables
+/////////////////////////////////
+
+$white: #fff;
+$midgrey5: #666;
+$emerald-green: #008209;
+
+$transparent-black1: rgba(0,0,0,0.7);
+$transparent-black2: rgba(0,0,0,0.05);
+
+$error-color: #cc3333;
+$warning-color:   #FB9A06;
+
+$text-grey: #333;
+$footer-grey: #f6f6f6;
+$footer-text-grey: #575757;
+$footer-border-grey: #e3e3e3;
+
+$link-blue: #00539f;
+$link-blue-hover: #008dc8;
+
+$header-blue: #00294f;
+$header-blue-border: $link-blue;
+
+$button-blue: $link-blue;
+$button-blue-border: $link-blue;
+$button-focus-border: transparentize($link-blue-hover, 0.6);
+$button-gray: #c1c1c1;
+
+$input-background: $white;
+$input-border: #ccc;
+$input-border2: #009cda;
+$input-box-shadow: $button-focus-border;
+
+$checkbox-selected-border: transparentize($link-blue, 0.6);
+$checkbox-selected-shadow: transparentize($link-blue-hover, 0.6);
+$checkbox-error-shadow: transparentize($error-color, 0.8);
+
+$radio-button-label-text-color: #666;
+$radio-button-border: $input-border;
+$radio-button-checked: $white;
+$radio-button-checked-background: #008DCA;
+$radio-button-disabled-background: #f6f6f6;
+$radio-button-label-disabled: #999;
+
+$select-input-text: $midgrey5;
+
+$form-header-description: #666;
+$form-panel-grey: #ccc;
+
+$spinner-blue: #008DCA;
+$spinner-gray: #cccccc;
+
+// Red
+$red:          #ee1c2e;
+$palered:      #db6044;
+$red10:        #fde8ea;
+
+// Blue
+$darkblue:     #233f73;
+$blue:         #00539f;
+$brightblue:   #009cda;
+$blue80:       #3375b2;
+$blue10:       #e5edf5;
+$blue-header-links-bg: #00294f;
+$blue-header-links-border: #00539f;
+
+// Purple
+$purple:       #5d3084;
+
+// Green
+$green:        #44b96d;
+$darker-green: #31854e;
+$green10:      #e8f7f1;
+$palegreen:    #edf8f0;
+$emeraldgreen: #008209;
+
+// Yellow
+$yellow:       #edb648;
+
+// Grey
+$white:        #fff;
+$naturalwhite: #f2eae0;
+$lightgrey:    #f2f2f2;
+$lightgrey2:   #9b9b9b;
+$midgrey:      #c8c8c8;
+$midgrey2:     #4d4d4d;
+$midgrey3:     #b0b0b0;
+$midgrey4:     #7e7e7e;
+$midgrey5:     #666;
+$midgrey6:     #333;
+$midgrey7:     #e3e3e3;
+$darkgrey:     #4c4744;
+$darkergrey:   #707984;
+$black:        #000;
+$black03:      #333;
+$black10:      #e5e5e5;
+$black20:      #ccc;
+$black30:      #b2b2b2;
+$black40:      #dfdedc;
+
+
+// Background colors
+$lightyellow:  #f2eae0;
+
+$lightbg: #f8f7f5;
+
+$orange: #db6044;
+
+$orange2: #f7931e;
+
+$brown: #633d3a;
+
+$greybg: #f8f7f5;
+$greybg1: #f6f6f6;
+$greybg-footer: $greybg1;
+$greybg-page: $greybg-footer;
+$grey-header: #edecec;
+
+$lightgreybg: #fbfbfa;
+
+// Colors for round info in product tiles
+
+$purple2: #ca82cd;
+$purple2-20: #edd5ee;
+
+$bluegrey: #568697;
+$bluegrey-20: #cfdde1;
+
+// Form colors
+$hint-fore-color:$brightblue;
+$hint-bg-color:#e8f5fb;
+
+$validation-alert-fore-color: $yellow;
+$validation-alert-bg-color: #fdf8ec;
+
+$validation-valid-fore-color: $green;
+$validation-valid-bg-color: #edf8f0;
+
+$validation-error-fore-color: #dd4a3e;
+$validation-error-bg-color: #fbedec;
