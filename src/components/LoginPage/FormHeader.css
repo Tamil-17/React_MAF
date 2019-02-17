@@ -1,0 +1,14 @@
+.ui-component__form-header {
+    margin-bottom: 37px;
+}
+
+.ui-component__form-header--title {
+    font-size: 1.2em;
+    margin-bottom: 0.35em;
+}
+
+.ui-component__form-header--description {
+    font-size: 1.6em;
+    font-weight: 200;
+    margin-bottom: 2em;
+}

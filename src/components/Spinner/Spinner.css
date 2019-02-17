@@ -1,0 +1,30 @@
+.spinner {
+    padding: 4px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.spinner:before {
+    animation: rotation .9s infinite linear;
+    border-left: 4px solid  #008DCA;
+    border-right: 4px solid  #008DCA;
+    border-bottom: 4px solid  #008DCA;
+    border-top: 4px solid #cccccc;
+    border-radius: 100%;
+    content: '';
+    display: block;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 30px;
+}
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
